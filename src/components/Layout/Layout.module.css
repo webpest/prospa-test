@@ -1,0 +1,30 @@
+.layout {
+  display: flex;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.pageWrapper {
+  display: flex;
+  width: 100%;
+}
+
+.sideBar {
+  flex: 0 0 36rem;
+  width: 36rem;
+  padding: 3.6rem;
+  background-color: var(--secondary-color);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 3.6rem;
+}
+
+.main nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 3.6rem;
+}

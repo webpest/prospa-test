@@ -1,0 +1,10 @@
+.btn {
+  background-color: var(--primary-color);
+  border: 1px solid transparent;
+  font-family: var(--font-family-bold);
+  border-radius: 6px;
+  color: #fff;
+  padding: 1.7rem 2rem;
+  cursor: pointer;
+  outline: none;
+}

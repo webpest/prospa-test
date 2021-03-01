@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'BRFirma';
+  src: url('/fonts/Brink\ -\ BR\ Firma\ Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'BRFirma Semi Bold';
+  src: url('/fonts/Brink\ -\ BR\ Firma\ SemiBold.otf') format('opentype');
+}
+
+:root {
+  --text-color: #333;
+  --secondary-color: #7e51ff;
+  --primary-color: #fa4a84;
+  --text-color-1: #1B003B;
+  --text-color-2: #8397AB;
+  --font-family: 'BRFirma', sans-serif;
+  --font-family-bold: 'BRFirma Semi Bold', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+
+  @media (min-width: 64em) {
+    font-size: 55%;
+  }
+}
+body {
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+h1,h2,h3,h4 {
+  font-family: var(--font-family-bold);
+}
