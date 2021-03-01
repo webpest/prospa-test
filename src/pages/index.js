@@ -4,7 +4,7 @@ import Input from 'components/Input';
 import Link from 'components/Link';
 import styles from 'styles/Onboarding.module.css';
 
-export default function Home() {
+export default function SignIn() {
   return (
     <Layout title="Home">
       <nav>
