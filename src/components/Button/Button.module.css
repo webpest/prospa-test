@@ -1,8 +1,9 @@
 .btn {
   background-color: var(--primary-color);
   border: 1px solid transparent;
-  font-family: var(--font-family-bold);
+  font-family: var(--font-family-semi-bold);
   border-radius: 6px;
+  font-size: 1.6rem;
   color: #fff;
   padding: 1.7rem 2rem;
   cursor: pointer;

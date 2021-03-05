@@ -1,0 +1,23 @@
+.pageHeader {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageHeader h2 {
+  font-size: 2.4rem;
+  font-family: var(--font-family-bold);
+}
+
+.pageHeader h2 p {
+  font-size: 1.6rem;
+  font-family: var(--font-family-medium);
+  font-weight: normal;
+}
+
+.statGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2.4rem;
+  margin-bottom: 3rem;
+}

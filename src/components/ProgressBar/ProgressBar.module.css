@@ -1,0 +1,18 @@
+.progress {
+  background-color: #eeeff7;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.bar {
+  transition: 0.3s;
+  height: inherit;
+  border-radius: inherit;
+}
+
+.label {
+  font-size: 1.4rem;
+  font-family: var(--font-family-semi-bold);
+  color: var(--text-color-1);
+}

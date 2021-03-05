@@ -1,3 +1,4 @@
+import { useRouter } from 'next/router';
 import Button from 'components/Button';
 import Layout from 'components/Layout';
 import Input from 'components/Input';
@@ -5,9 +6,10 @@ import Link from 'components/Link';
 import styles from 'styles/Onboarding.module.css';
 
 export default function SignIn() {
+  const router = useRouter();
   return (
     <Layout title="Home">
-      <nav>
+      <nav className={styles.nav}>
         <span>
           Don't have an account? <Link href="/signup">Sign Up</Link>
         </span>
@@ -17,8 +19,9 @@ export default function SignIn() {
         <p className={styles.desc}>
           An account, with powerful, personalised tools all in one place
         </p>
-        <Input />
-        <Button>Hello Button</Button>
+        <Input label="Email Address" />
+        <Input label="Enter Password" />
+        <Button onClick={() => router.push('/dashboard')}>Next</Button>
       </section>
     </Layout>
   );

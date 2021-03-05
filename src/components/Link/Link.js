@@ -1,10 +1,10 @@
 import NextLink from 'next/link';
 import styles from './Link.module.css';
 
-const Link = ({ children, href }) => {
+const Link = ({ children, href, className }) => {
   return (
     <NextLink href={href}>
-      <a>{children}</a>
+      <a className={className}>{children}</a>
     </NextLink>
   );
 };
