@@ -91,7 +91,7 @@
 .clientInfo span {
   font-size: 1.2rem;
   font-family: var(--font-family-medium);
-  color: #8397ab;
+  color: var(--text-color-2);
 }
 
 .sidebarContainer {
@@ -129,7 +129,7 @@
 }
 
 .sideMenu a {
-  color: #8397ab;
+  color: var(--text-color-2);
   font-family: var(--font-family-semi-bold);
   font-size: 1.4rem;
   text-decoration: none;
@@ -160,7 +160,7 @@
 }
 
 .headerSection h1 {
-  color: #8397ab;
+  color: var(--text-color-2);
   font-size: 2.1rem;
 }
 
@@ -184,4 +184,34 @@
   width: 95%;
   max-width: 960px;
   margin: 0 auto;
+}
+
+/* Media Query */
+
+@media (max-width: 52.5em) {
+  .sideBar {
+    display: none;
+  }
+}
+
+@media (max-width: 69.375em) {
+  .innerSideBar {
+    display: none;
+  }
+
+  .innerMain {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: auto;
+  }
+
+  .innerLayout {
+    flex-direction: column;
+  }
+
+  .header {
+    background-color: #fff;
+    padding-left: 0;
+  }
 }

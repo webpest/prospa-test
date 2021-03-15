@@ -19,7 +19,7 @@
 
 .details p {
   font-size: 1.4rem;
-  color: #8397ab;
+  color: var(--text-color-2);
 }
 
 .details span {
@@ -33,4 +33,8 @@
   color: var(--text-color-1);
   font-family: var(--font-family-medium);
   font-size: 3.6rem;
+}
+
+.amount span {
+  font-size: 2.4rem;
 }

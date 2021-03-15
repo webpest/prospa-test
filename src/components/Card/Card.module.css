@@ -3,3 +3,10 @@
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
 }
+
+.cardTitle {
+  margin-bottom: 3.2rem;
+  margin-top: 2.9rem;
+  padding: 0 2.4rem;
+  font-size: 1.8rem;
+}

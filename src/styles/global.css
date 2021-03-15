@@ -42,11 +42,14 @@
 
 html {
   font-size: 62.5%;
+}
 
-  @media (min-width: 64em) {
+/* @media (min-width: 64em) {
+  html {
     font-size: 55%;
   }
-}
+} */
+
 body {
   font-family: var(--font-family);
   -webkit-font-smoothing: antialiased;

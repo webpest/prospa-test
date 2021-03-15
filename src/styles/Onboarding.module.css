@@ -35,7 +35,7 @@
 .radioList {
   list-style: none;
   font-size: 1.3rem;
-  color: #8397ab;
+  color: var(--text-color-2);
 }
 
 .radioList li {

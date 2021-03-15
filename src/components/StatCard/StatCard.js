@@ -2,6 +2,7 @@ import Card from 'components/Card';
 import styles from './StatCard.module.css';
 
 const StatCard = ({ title, subTitle, amount, icon }) => {
+  const [price, dec] = amount && amount.split('.');
   return (
     <Card className={styles.statCard}>
       <div className={styles.details}>
@@ -9,7 +10,10 @@ const StatCard = ({ title, subTitle, amount, icon }) => {
         <p>{subTitle}</p>
         <span>{icon}</span>
       </div>
-      <h4 className={styles.amount}>{amount}</h4>
+      <h4 className={styles.amount}>
+        {`${price}.`}
+        <span>{dec}</span>
+      </h4>
     </Card>
   );
 };

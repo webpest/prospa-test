@@ -21,3 +21,47 @@
   column-gap: 2.4rem;
   margin-bottom: 3rem;
 }
+
+.chartGrid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: calc(60% - 2.4rem) 40%;
+  column-gap: 2.4rem;
+}
+
+.chartDetail {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 40rem;
+  margin-bottom: 2rem;
+  margin-left: 2.4rem;
+}
+
+.chartDetail h3 {
+  font-family: var(--font-family-medium);
+  font-weight: normal;
+  color: var(--text-color-2);
+  font-size: 1.4rem;
+}
+
+.chartDetail p {
+  font-family: var(--font-family-semi-bold);
+  font-weight: normal;
+  color: var(--text-color-1);
+  font-size: 1.4rem;
+}
+
+.cardFlow {
+  padding: 0 2.4rem;
+  margin-bottom: 4rem;
+  display: grid;
+  grid-template-columns: 3.2rem 1fr 1fr;
+  align-items: center;
+  color: var(--text-color-2);
+  font-size: 1.4rem;
+  font-family: var(--font-family-medium);
+}
+
+.cardFlow img {
+  padding-right: 1rem;
+}
